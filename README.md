@@ -15,3 +15,10 @@ https://youtu.be/TdUC3JgwUJY
 
 * [Beispiel für die map-Funktion von p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain_live001_map)
 * [Beispiel für die random-Funktion von p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain_live001_random)
+
+### Skripte zum Live Stream #2 des "Coding Train"
+Details:
+https://youtu.be/uEVJRE_6v0A
+
+* [Beispiel für ein einfaches If mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain_live002_basicif)
+* [Beispiel für einen wandernden Ball mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain_live002_bouncingball)
