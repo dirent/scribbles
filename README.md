@@ -1,6 +1,14 @@
 # scribbles
 Eine Sammlung diverser Code-Schnipsel
 
+## November 2018
+
+### Skripte zum Live Stream #3 des "Coding Train"
+Details:
+https://youtu.be/6G02PLQ8L7k
+
+* [Beispiel für das Setzen einer Bedinung nach dem Event 'mousepressed'](https://github.com/dirent/scribbles/tree/master/codingtrain_live003_mousepressed)
+
 ## Oktober 2018
 
 ### Knobelaufgabe: McNugget-Zahlen (Münzproblem von Frobenius) 
