@@ -7,7 +7,7 @@ Eine Sammlung diverser Code-Schnipsel
 Details:
 https://youtu.be/6G02PLQ8L7k
 
-* [Beispiel für das Setzen einer Bedinung nach dem Event 'mousepressed'](https://github.com/dirent/scribbles/tree/master/codingtrain_live003_mousepressed)
+* [Beispiel für das Setzen einer Bedingung nach dem Event 'mousepressed'](https://github.com/dirent/scribbles/tree/master/codingtrain_live003_mousepressed)
 
 ## Oktober 2018
 
