@@ -14,10 +14,18 @@ function draw() {
     stroke(255);
     strokeWeight(4);
 
+    // draw a first horizontal line of circles using the while loop
     fill( 223, 25, 179 );
     var x = 0;
     while( x < width+radius ) {
-        ellipse( x, 200, radius, radius );
+        ellipse( x, 100, radius, radius );
         x = x+50;
+    }
+
+    // draw a second horizonal line of circles below the first one,
+    // but now using the for loop
+    fill( 0, 200, 225 );
+    for( x = 0; x < width+radius; x += 50 ) {
+        ellipse( x, 250, radius, radius );
     }
 }
