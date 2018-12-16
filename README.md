@@ -10,6 +10,12 @@ https://youtu.be/xyclhIu2WDY
 * [Beispiel für das Rendern von Kreisen in horizontaler Reihe](https://github.com/dirent/scribbles/tree/master/codingtrain_live004_horizontalcircles)
 * [Beispiel für das Rendern von Kreisen auf einem zweidimensionalen Gitter](https://github.com/dirent/scribbles/tree/master/codingtrain_live004_gridcircles)
 
+### Skripte zum Live Stream #5 des "Coding Train"
+Details:
+https://youtu.be/8v_D33uGUrU
+
+* [Beispiel für eine klickbare Liste von Wörtern](https://github.com/dirent/scribbles/tree/master/codingtrain_live005_wordlist)
+
 ## November 2018
 
 ### Skripte zum Live Stream #3 des "Coding Train"
