@@ -16,6 +16,7 @@ https://youtu.be/8v_D33uGUrU
 
 * [Beispiel für eine klickbare Liste von Wörtern](https://github.com/dirent/scribbles/tree/master/codingtrain_live005_wordlist)
 * [Beispiel für den Zugriff auf ein Array innerhalb einer for-Schleife](https://github.com/dirent/scribbles/tree/master/codingtrain_live005_arraywithforloop)
+* [Beispiel für ein Array mit Objekten](https://github.com/dirent/scribbles/tree/master/codingtrain_live005_randombubbles)
 
 ## November 2018
 
