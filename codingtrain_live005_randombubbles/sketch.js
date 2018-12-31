@@ -4,12 +4,14 @@
 
 // the array of bubble objects
 var bubbles = [];
+// the radius of a bubble
+var radius = 25;
 
 function setup() {
     createCanvas( 600, 400 );
     
     // set up the array of bubble objects
-    for( var i=0; i<500; i++ ) {
+    for( var i=0; i<200; i++ ) {
         bubbles[i] = new Bubble();
     }
 }
@@ -29,8 +31,8 @@ function Bubble() {
     
     this.display = function() {
         stroke(255);
-        noFill();
-        ellipse( this.x, this.y, 15, 15 );
+        fill(245, 96, 248, 65);
+        ellipse( this.x, this.y, 25, 25 );
     };
     
     this.move = function() {
