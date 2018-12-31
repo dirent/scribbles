@@ -11,8 +11,18 @@ function setup() {
     createCanvas( 600, 400 );
     
     // set up the array of bubble objects
-    for( var i=0; i<200; i++ ) {
+    for( var i=0; i<2; i++ ) {
         bubbles[i] = new Bubble( random(width), random(height) );
+    }
+}
+
+function mouseDragged() {
+    bubbles.push( new Bubble( mouseX, mouseY ) );
+}
+
+function keyTyped() {
+    if( key === 'x' ) {
+        bubbles.splice( 0, bubbles.length );
     }
 }
 
