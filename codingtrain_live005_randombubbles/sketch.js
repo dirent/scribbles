@@ -10,19 +10,7 @@ function setup() {
     
     // set up the array of bubble objects
     for( var i=0; i<500; i++ ) {
-        bubbles[i] = {
-            x: random(600),
-            y: random(400),
-            display: function() {
-                stroke(255);
-                noFill();
-                ellipse( this.x, this.y, 15, 15 );
-            },
-            move: function() {
-                this.x += random( -1, 1 );
-                this.y += random( -1, 1 );
-            }
-        }
+        bubbles[i] = new Bubble();
     }
 }
 
@@ -33,4 +21,20 @@ function draw() {
         bubbles[i].display();
         bubbles[i].move();
     }
+}
+
+function Bubble() {
+    this.x = random(width);
+    this.y = random(height);
+    
+    this.display = function() {
+        stroke(255);
+        noFill();
+        ellipse( this.x, this.y, 15, 15 );
+    };
+    
+    this.move = function() {
+        this.x += random( -1, 1 );
+        this.y += random( -1, 1 );
+    };
 }
