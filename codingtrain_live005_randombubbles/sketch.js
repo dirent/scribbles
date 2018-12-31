@@ -33,6 +33,10 @@ function draw() {
         bubbles[i].display();
         bubbles[i].move();
     }
+
+    if( bubbles.length > 50 ) {
+        bubbles.splice(0,1);
+    }
 }
 
 function Bubble( x, y ) {
