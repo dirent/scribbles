@@ -12,7 +12,7 @@ function setup() {
     
     // set up the array of bubble objects
     for( var i=0; i<200; i++ ) {
-        bubbles[i] = new Bubble();
+        bubbles[i] = new Bubble( random(width), random(height) );
     }
 }
 
@@ -25,9 +25,9 @@ function draw() {
     }
 }
 
-function Bubble() {
-    this.x = random(width);
-    this.y = random(height);
+function Bubble( x, y ) {
+    this.x = x;
+    this.y = y;
     
     this.display = function() {
         stroke(255);
