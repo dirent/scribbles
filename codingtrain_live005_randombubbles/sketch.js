@@ -4,20 +4,31 @@
 
 // the array of bubble objects
 var bubbles = [];
-// the radius of a bubble
-var radius = 25;
+
+// flag, if the mouse dragging has been stopped
+var draggingStopped = true;
 
 function setup() {
     createCanvas( 600, 400 );
     
     // set up the array of bubble objects
-    for( var i=0; i<2; i++ ) {
+    for( var i=0; i<5; i++ ) {
         bubbles[i] = new Bubble( random(width), random(height) );
     }
 }
 
 function mouseDragged() {
+
+    if( draggingStopped ) {
+        draggingStopped = false;
+        bubbles.splice( 0, bubbles.length );
+    }
+
     bubbles.push( new Bubble( mouseX, mouseY ) );
+}
+
+function mouseReleased() {
+    draggingStopped = true;
 }
 
 function keyTyped() {
@@ -34,7 +45,14 @@ function draw() {
         bubbles[i].move();
     }
 
-    if( bubbles.length > 50 ) {
+    if( bubbles.length > 100 ) {
         bubbles.splice(0,1);
+    }
+
+    // remove bubbles that leaves the window
+    for( var i=bubbles.length-1; i>=0; i-- ) {
+        if( bubbles[i].hasLeftWindow() ) {
+            bubbles.splice(i,1);
+        }
     }
 }
