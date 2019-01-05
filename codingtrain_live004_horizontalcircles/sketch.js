@@ -2,8 +2,9 @@
 // Coding Train "Live Stream #4: p5.js Lessons About Loops"
 // https://youtu.be/xyclhIu2WDY
 
-// the radius of the circles
-var radius = 40;
+// the width of the circles
+var w = 40;
+var radius = w/2;
 
 function setup() {
 	createCanvas( 600, 400 );
@@ -18,7 +19,7 @@ function draw() {
     fill( 223, 25, 179 );
     var x = 0;
     while( x < width+radius ) {
-        ellipse( x, 100, radius, radius );
+        ellipse( x, 100, w );
         x = x+50;
     }
 
@@ -26,6 +27,6 @@ function draw() {
     // but now using the for loop
     fill( 0, 200, 225 );
     for( x = 0; x < width+radius; x += 50 ) {
-        ellipse( x, 250, radius, radius );
+        ellipse( x, 250, w );
     }
 }

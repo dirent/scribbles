@@ -4,7 +4,7 @@
 
 var x = 0;
 var d = 3;
-var r = 100;
+var w = 100;
 
 function setup() {
     createCanvas(600, 400);
@@ -17,7 +17,7 @@ function draw() {
     noFill();
 
     // draw ball
-    ellipse(x, 200, r, r);
+    ellipse(x, 200, w);
 
     // move ball
     x = x + d;

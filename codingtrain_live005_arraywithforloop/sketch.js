@@ -2,8 +2,8 @@
 // Coding Train "Live Stream #5: Arrays and Objects with p5.js"
 // https://youtu.be/8v_D33uGUrU
 
-// the radii of the circles
-var radii = [ 14, 76, 26, 46 ];
+// the widths of the circles
+var widths = [ 14, 76, 26, 46 ];
 // the colors of the circles,
 // note: the length of the both arrays must be equal
 var colors = [ [126, 0, 134], 
@@ -17,8 +17,8 @@ function setup() {
 
 function draw() {
     background(0);
-    for( var i=0; i<radii.length; i++ ) {
+    for( var i=0; i<widths.length; i++ ) {
         fill( colors[i][0], colors[i][1], colors[i][2] );
-        ellipse( i*100 + 100, 200, radii[i], radii[i] );
+        ellipse( i*100 + 100, 200, widths[i] );
     }
 }
