@@ -1,6 +1,14 @@
 # scribbles
 Eine Sammlung diverser Code-Schnipsel
 
+## Januar 2019
+
+### Skripte zum Live Stream #6 des "Coding Train"
+Details:
+https://youtu.be/PgGFv44bz9E
+
+* [Beispiel für das Rendern von Kreisen mit Click-Handler](https://github.com/dirent/scribbles/tree/master/coodingtrain_live006_colorbubbles)
+
 ## Dezember 2018
 
 ### Skripte zum Live Stream #4 des "Coding Train"
