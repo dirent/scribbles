@@ -1,6 +1,14 @@
 # scribbles
 Eine Sammlung diverser Code-Schnipsel
 
+## Februar 2019
+
+### Knobelaufgabe: Überraschende Wahrscheinlichkeiten: ein unfaires Münzspiel
+Details:
+https://youtu.be/rX4wAfiKOms
+
+* [Lösung](https://github.com/dirent/scribbles/tree/master/weitz_knobelaufgabe_unfaires-muenzspiel)
+
 ## Januar 2019
 
 ### Skripte zum Live Stream #6 des "Coding Train"
