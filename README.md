@@ -3,6 +3,10 @@ Eine Sammlung diverser Code-Schnipsel
 
 ## März 2019
 
+### Übungsaufgabe: Snake-Spiel
+
+* [Lösung](https://github.com/dirent/scribbles/tree/master/weitz_p5_snake)
+
 ### Übungsaufgabe: map und reduce
 Details:
 https://youtu.be/vhSomr3lD5A
