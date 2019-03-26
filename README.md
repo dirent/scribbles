@@ -1,6 +1,14 @@
 # scribbles
 Eine Sammlung diverser Code-Schnipsel
 
+## März 2019
+
+### Übungsaufgabe: map und reduce
+Details:
+https://youtu.be/vhSomr3lD5A
+
+* [Lösung](https://github.com/dirent/scribbles/tree/master/weitz_d3_map-reduce)
+
 ## Februar 2019
 
 ### Knobelaufgabe: Überraschende Wahrscheinlichkeiten: ein unfaires Münzspiel
