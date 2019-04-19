@@ -8,11 +8,15 @@ var radius = 12;
 function Bubble(x, y) {
     this.x = x;
     this.y = y;
-    this.col = color(245, 96, 248, 65);
+    this.isBright = false;
 
     this.display = function () {
         stroke(255);
-        fill(this.col);
+        if (!this.isBright) {
+            fill(color(245, 96, 248, 65));
+        } else {
+            fill(color(200, 0, 188));
+        }
         ellipse(this.x, this.y, 2 * radius);
     };
 
@@ -28,7 +32,7 @@ function Bubble(x, y) {
 
     this.clicked = function () {
         if (dist(this.x, this.y, mouseX, mouseY) < radius) {
-            this.col = color(200, 0, 188);
+            this.isBright = !this.isBright;
         }
     }
 }
