@@ -1,6 +1,14 @@
 # scribbles
 Eine Sammlung diverser Code-Schnipsel
 
+## April 2019
+
+### Skripte zum Live Stream #6 des "Coding Train"
+Details:
+https://youtu.be/PgGFv44bz9E
+
+* [Beispiel für das Rendern von Kreisen mit Ausblenden](https://github.com/dirent/scribbles/tree/master/coodingtrain_live006_fadingbubbles)
+
 ## März 2019
 
 ### Übungsaufgabe: Snake-Spiel
