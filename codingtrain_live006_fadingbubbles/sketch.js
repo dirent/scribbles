@@ -1,6 +1,6 @@
 // Example code from
-// Coding Train "Live Stream #6: More about Arrays and Objects with p5.js"
-// https://youtu.be/PgGFv44bz9E
+// Coding Train "7.7: Deleting Objects Using splice() - p5.js Tutorial"
+// https://youtu.be/HXOD_XDA-KU
 
 // the array of bubble objects
 var bubbles = [];
