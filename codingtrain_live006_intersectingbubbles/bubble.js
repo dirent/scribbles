@@ -5,10 +5,10 @@
 // if the the bubble intersects another
 // bubble.
 
-function Bubble(x, y) {
+function Bubble(x, y, radius) {
     this.x = x;
     this.y = y;
-    this.radius = 48;
+    this.radius = radius;
     this.col = color(200, 100);
 
     this.display = function () {
