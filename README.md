@@ -9,6 +9,7 @@ https://youtu.be/PgGFv44bz9E
 
 * [Beispiel für das Rendern von Kreisen mit Ausblenden](https://github.com/dirent/scribbles/tree/master/codingtrain_live006_fadingbubbles)
 * [Beispiel für die Kollisionsdetektion von Kreisen](https://github.com/dirent/scribbles/tree/master/codingtrain_live006_intersectingbubbles)
+* [Beispiel für das Rendern von Bildern](https://github.com/dirent/scribbles/tree/master/codingtrain_live006_imagebubbles)
 
 ## März 2019
 
