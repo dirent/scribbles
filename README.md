@@ -1,6 +1,12 @@
 # scribbles
 Eine Sammlung diverser Code-Schnipsel
 
+## Upcoming
+
+### Übungsaufgabe: Snake-Spiel
+
+* [Lösung](https://github.com/dirent/scribbles/tree/master/games/p5_snake)
+
 ## April 2019
 
 ### Skripte zum Live Stream #6 des "Coding Train"
@@ -12,10 +18,6 @@ https://youtu.be/PgGFv44bz9E
 * [Beispiel für das Rendern von Bildern](https://github.com/dirent/scribbles/tree/master/codingtrain_live006_imagebubbles)
 
 ## März 2019
-
-### Übungsaufgabe: Snake-Spiel
-
-* [Lösung](https://github.com/dirent/scribbles/tree/master/weitz_p5_snake)
 
 ### Übungsaufgabe: map und reduce
 Details:
