@@ -1,8 +1,9 @@
 // A simple Flappy Bird game
 
 var score;
+var bird;
 // difficulty
-var pipeSpeed = 4;
+var difficulty = 4;
 
 function setup() {
     createCanvas(800, 600);
@@ -13,19 +14,23 @@ function setup() {
 function draw() {
     background(0, 136, 255);
     score.show();
+    if( score.isRunning() ) {
+        bird.show();
+    }
 }
 
 function keyPressed() {
     if (score.isReady()) {
         // choose difficulty between 1 and 9
         if (keyCode >= 49 && keyCode <= 57) {
-            score.start();
-            pipeSpeed = keyCode - 48;
+            difficulty = keyCode - 48;
+            bird = new Bird(width / 9 + 15*difficulty, height/15 + difficulty);
+            score.start();            
         }
     } else if (score.isRunning()) {
         // jump
         if (keyCode === 32 || keyCode === UP_ARROW) {
-            // jump
+            bird.jump();
         }
         // finish
         if (keyCode === ESCAPE) {
