@@ -9,6 +9,10 @@ Eine Sammlung diverser Code-Schnipsel
 
 ## April 2019
 
+### Fingerübung: Flappy Bird
+
+* [Lösung](https://github.com/dirent/scribbles/tree/master/games/p5_flappybird)
+
 ### Skripte zum Live Stream #6 des "Coding Train"
 Details:
 https://youtu.be/PgGFv44bz9E
