@@ -58,7 +58,7 @@ function keyPressed() {
     if (score.isReady()) {
         // choose difficulty between 1 and 9
         if (keyCode >= 49 && keyCode <= 57) {
-            difficulty = keyCode - 48;
+            difficulty = keyCode - 44;
 
             bird = createBird();
             pipes = [];
