@@ -19,8 +19,9 @@ function createPipe() {
         birdSize, pipeSpeed, gapHeight, pipeWidth;
 
     birdSize = height / 15 + diffCount;
-    pipeSpeed = diffCount + score.gameTime/10;
-    gapHeight = birdSize * 6;
+    pipeSpeed = diffCount + score.gameTime / 10;
+    gapHeight = birdSize * 6 - 5 * diffCount;
+    console.log("Ratio of Gap and Bird Size: " + gapHeight / birdSize);
     pipeWidth = width / 5 + diffCount;
     return new Pipe(pipeSpeed, gapHeight, pipeWidth);
 }
@@ -43,7 +44,7 @@ function draw() {
             pipes[i].show();
 
             // check collision
-            if( pipes[i].collides(bird) ) {
+            if (pipes[i].collides(bird)) {
                 score.gameOver();
             }
 
