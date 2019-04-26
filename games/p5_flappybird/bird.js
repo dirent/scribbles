@@ -1,5 +1,5 @@
-function Bird(gap, size) {
-    this.x = gap;
+function Bird(birdGap, size) {
+    this.x = birdGap;
     this.y = height / 4;
     this.size = size;
     this.speed = 0;
