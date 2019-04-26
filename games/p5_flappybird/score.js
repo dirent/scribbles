@@ -27,6 +27,9 @@ function Score(welcome) {
         stroke(0);
         strokeWeight(10);
 
+        if( this.isReady() && this.highScore > 0 ) {
+            scoreText = this.welcome + "\nHIGHSCORE: " + this.highScore;
+        }
         if (this.isRunning()) {
             scoreText = this.currentScore + " / " + this.highScore;
         }
