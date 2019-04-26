@@ -42,10 +42,13 @@ function draw() {
         for (i = pipes.length - 1; i >= 0; i--) {
             pipes[i].show();
 
-            // TODO: check collision
+            // check collision
+            if( pipes[i].collides(bird) ) {
+                score.gameOver();
+            }
 
             // check score
-            if (pipes[i].hasPassed(bird.x)) {
+            if (pipes[i].hasPassed(bird)) {
                 score.increase(difficulty);
             }
 
