@@ -40,6 +40,10 @@ function Score(welcome) {
         this.currentScore = 0;
     }
 
+    this.increase = function (score) {
+        this.currentScore += score;
+    }
+
     this.gameOver = function () {
         this.gameStatus = 2;
         if (this.currentScore > this.highScore) {

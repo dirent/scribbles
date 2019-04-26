@@ -3,24 +3,25 @@
 var score;
 var bird;
 var pipes;
-// difficulty
 var difficulty = 4;
 
 function createBird() {
-    var birdGap, birdSize;
+    var diffCount = difficulty + 4,
+        birdGap, birdSize;
 
-    birdGap = width / 9 + 15 * difficulty;
-    birdSize = height / 15 + difficulty;
+    birdGap = width / 9 + 15 * diffCount;
+    birdSize = height / 15 + diffCount;
     return new Bird(birdGap, birdSize);
 }
 
 function createPipe() {
-    var birdSize, pipeSpeed, gapHeight, pipeWidth;
+    var diffCount = difficulty + 4,
+        birdSize, pipeSpeed, gapHeight, pipeWidth;
 
-    birdSize = height / 15 + difficulty;
-    pipeSpeed = difficulty;
+    birdSize = height / 15 + diffCount;
+    pipeSpeed = diffCount;
     gapHeight = birdSize * 6;
-    pipeWidth = width / 5 + difficulty;
+    pipeWidth = width / 5 + diffCount;
     return new Pipe(pipeSpeed, gapHeight, pipeWidth);
 }
 
@@ -43,8 +44,12 @@ function draw() {
 
             // TODO: check collision
 
-            // TODO: check score
+            // check score
+            if (pipes[i].hasPassed(bird.x)) {
+                score.increase(difficulty);
+            }
 
+            // remove expired pipes
             if (pipes[i].isExpired()) {
                 pipes.splice(i, 1);
             }
@@ -58,7 +63,7 @@ function keyPressed() {
     if (score.isReady()) {
         // choose difficulty between 1 and 9
         if (keyCode >= 49 && keyCode <= 57) {
-            difficulty = keyCode - 44;
+            difficulty = keyCode - 48;
 
             bird = createBird();
             pipes = [];

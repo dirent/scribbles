@@ -28,4 +28,9 @@ function Pipe(pipeSpeed, gapHeight, pipeWidth) {
     this.isSteppedAway = function () {
         return this.x < width - this.pipeWidth - this.pipeDistance;
     }
+
+    this.hasPassed = function (x) {
+        return this.x + this.pipeWidth / 2 <= x &&
+            this.x + this.pipeWidth / 2 + this.pipeSpeed > x;
+    }
 }
