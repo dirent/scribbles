@@ -19,7 +19,7 @@ function createPipe() {
         birdSize, pipeSpeed, gapHeight, pipeWidth;
 
     birdSize = height / 15 + diffCount;
-    pipeSpeed = diffCount;
+    pipeSpeed = diffCount + score.gameTime/10;
     gapHeight = birdSize * 6;
     pipeWidth = width / 5 + diffCount;
     return new Pipe(pipeSpeed, gapHeight, pipeWidth);

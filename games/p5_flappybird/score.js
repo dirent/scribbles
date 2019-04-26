@@ -1,6 +1,7 @@
 function Score(welcome) {
     this.welcome = welcome;
     this.gameStatus = 0;
+    this.gameTime = 0;
     this.currentScore = 0;
     this.highScore = 0;
 
@@ -37,11 +38,13 @@ function Score(welcome) {
 
     this.start = function () {
         this.gameStatus = 1;
+        this.gameTime = 0;
         this.currentScore = 0;
     }
 
     this.increase = function (score) {
         this.currentScore += score;
+        this.gameTime++;
     }
 
     this.gameOver = function () {
@@ -53,5 +56,6 @@ function Score(welcome) {
 
     this.reset = function () {
         this.gameStatus = 0;
+        this.gameTime = 0;
     }
 }
