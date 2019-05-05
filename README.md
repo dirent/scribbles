@@ -90,8 +90,8 @@ https://youtu.be/gGEwvCLjf8w
 Details:
 https://youtu.be/TdUC3JgwUJY
 
-* [Beispiel für die map-Funktion von p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain_live001_map)
-* [Beispiel für die random-Funktion von p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain_live001_random)
+* [Beispiel für die map-Funktion von p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain/live/001/map)
+* [Beispiel für die random-Funktion von p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain/live/001/random)
 
 ### Skripte zum Live Stream #2 des "Coding Train"
 Details:
