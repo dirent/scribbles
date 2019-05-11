@@ -102,6 +102,6 @@ https://youtu.be/TdUC3JgwUJY
 Details:
 https://youtu.be/uEVJRE_6v0A
 
-* [Beispiel für ein einfaches If mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain_live002_basicif)
-* [Beispiel für einen wandernden Ball mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain_live002_bouncingball)
-* [Beispiel für einen Mouse-Over-Effekt mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain_live002_mouseoverrect)
+* [Beispiel für ein einfaches If mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain/live/002/basicif)
+* [Beispiel für einen wandernden Ball mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain/live/002/bouncingball)
+* [Beispiel für einen Mouse-Over-Effekt mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain/live/002/mouseoverrect)
