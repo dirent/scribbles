@@ -11,6 +11,12 @@ Eine Sammlung diverser Code-Schnipsel
 
 ### Skripte zum Processing Tutorial des "Coding Train"
 Details:
+https://youtu.be/Z8s-7beNP1c
+
+* [Variable Anzahl vertikaler Linien](https://github.com/dirent/scribbles/tree/master/codingtrain/processing/loop/loop_inside_draw)
+
+### Skripte zum Processing Tutorial des "Coding Train"
+Details:
 https://youtu.be/esKLU3dJo70
 
 * [Gitternetz mit zufälliger Gitterbreite](https://github.com/dirent/scribbles/tree/master/codingtrain/processing/loop/while_grid)
