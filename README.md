@@ -86,7 +86,7 @@ https://youtu.be/8v_D33uGUrU
 Details:
 https://youtu.be/6G02PLQ8L7k
 
-* [Beispiel für das Setzen einer Bedingung nach dem Event 'mousepressed'](https://github.com/dirent/scribbles/tree/master/codingtrain_live003_mousepressed)
+* [Beispiel für das Setzen einer Bedingung nach dem Event 'mousepressed'](https://github.com/dirent/scribbles/tree/master/codingtrain/live/003/mousepressed)
 
 ## Oktober 2018
 
