@@ -15,7 +15,6 @@ https://youtu.be/Z8s-7beNP1c
 
 * [Variable Anzahl vertikaler Linien](https://github.com/dirent/scribbles/tree/master/codingtrain/processing/loop/loop_inside_draw)
 
-### Skripte zum Processing Tutorial des "Coding Train"
 Details:
 https://youtu.be/esKLU3dJo70
 
