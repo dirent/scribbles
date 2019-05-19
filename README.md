@@ -9,6 +9,12 @@ Eine Sammlung diverser Code-Schnipsel
 
 ## Mai 2019
 
+### Skripte zum Live Stream #7 des "Coding Train"
+Details:
+https://youtu.be/rEC9U9dgxkA
+
+* [Beispiel für die Ausgabe der Position des Mauszeigers](https://github.com/dirent/scribbles/codingtrain/live/007/mouseposition)
+
 ### Skripte zum Processing Tutorial des "Coding Train"
 Details:
 https://youtu.be/esKLU3dJo70
