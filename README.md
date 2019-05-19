@@ -35,15 +35,15 @@ https://youtu.be/H7frvcAHXps
 
 ### Fingerübung: Flappy Bird
 
-* [Lösung](https://github.com/dirent/scribbles/tree/master/games/p5_flappybird)
+* [Lösung](https://dirent.github.io/scribbles/games/p5_flappybird)
 
 ### Skripte zum Live Stream #6 des "Coding Train"
 Details:
 https://youtu.be/PgGFv44bz9E
 
-* [Beispiel für das Rendern von Kreisen mit Ausblenden](https://github.com/dirent/scribbles/tree/master/codingtrain_live006_fadingbubbles)
-* [Beispiel für die Kollisionsdetektion von Kreisen](https://github.com/dirent/scribbles/tree/master/codingtrain_live006_intersectingbubbles)
-* [Beispiel für das Rendern von Bildern](https://github.com/dirent/scribbles/tree/master/codingtrain_live006_imagebubbles)
+* [Beispiel für das Rendern von Kreisen mit Ausblenden](https://dirent.github.io/scribbles/codingtrain_live006_fadingbubbles)
+* [Beispiel für die Kollisionsdetektion von Kreisen](https://dirent.github.io/scribbles/codingtrain_live006_intersectingbubbles)
+* [Beispiel für das Rendern von Bildern](https://dirent.github.io/scribbles/codingtrain_live006_imagebubbles)
 
 ## März 2019
 
@@ -51,7 +51,7 @@ https://youtu.be/PgGFv44bz9E
 Details:
 https://youtu.be/vhSomr3lD5A
 
-* [Lösung](https://github.com/dirent/scribbles/tree/master/weitz_d3_map-reduce)
+* [Lösung](https://dirent.github.io/scribbles/weitz_d3_map-reduce)
 
 ## Februar 2019
 
@@ -59,7 +59,7 @@ https://youtu.be/vhSomr3lD5A
 Details:
 https://youtu.be/rX4wAfiKOms
 
-* [Lösung](https://github.com/dirent/scribbles/tree/master/weitz_knobelaufgabe_unfaires-muenzspiel)
+* [Lösung](https://dirent.github.io/scribbles/weitz_knobelaufgabe_unfaires-muenzspiel)
 
 ## Januar 2019
 
@@ -67,7 +67,7 @@ https://youtu.be/rX4wAfiKOms
 Details:
 https://youtu.be/PgGFv44bz9E
 
-* [Beispiel für das Rendern von Kreisen mit Click-Handler](https://github.com/dirent/scribbles/tree/master/codingtrain_live006_colorbubbles)
+* [Beispiel für das Rendern von Kreisen mit Click-Handler](https://dirent.github.io/scribbles/codingtrain_live006_colorbubbles)
 
 ## Dezember 2018
 
@@ -75,16 +75,16 @@ https://youtu.be/PgGFv44bz9E
 Details:
 https://youtu.be/xyclhIu2WDY
 
-* [Beispiel für das Rendern von Kreisen in horizontaler Reihe](https://github.com/dirent/scribbles/tree/master/codingtrain_live004_horizontalcircles)
-* [Beispiel für das Rendern von Kreisen auf einem zweidimensionalen Gitter](https://github.com/dirent/scribbles/tree/master/codingtrain_live004_gridcircles)
+* [Beispiel für das Rendern von Kreisen in horizontaler Reihe](https://dirent.github.io/scribbles/codingtrain_live004_horizontalcircles)
+* [Beispiel für das Rendern von Kreisen auf einem zweidimensionalen Gitter](https://dirent.github.io/scribbles/codingtrain_live004_gridcircles)
 
 ### Skripte zum Live Stream #5 des "Coding Train"
 Details:
 https://youtu.be/8v_D33uGUrU
 
-* [Beispiel für eine klickbare Liste von Wörtern](https://github.com/dirent/scribbles/tree/master/codingtrain_live005_wordlist)
-* [Beispiel für den Zugriff auf ein Array innerhalb einer for-Schleife](https://github.com/dirent/scribbles/tree/master/codingtrain_live005_arraywithforloop)
-* [Beispiel für ein Array mit Objekten](https://github.com/dirent/scribbles/tree/master/codingtrain_live005_randombubbles)
+* [Beispiel für eine klickbare Liste von Wörtern](https://dirent.github.io/scribbles/codingtrain_live005_wordlist)
+* [Beispiel für den Zugriff auf ein Array innerhalb einer for-Schleife](https://dirent.github.io/scribbles/codingtrain_live005_arraywithforloop)
+* [Beispiel für ein Array mit Objekten](https://dirent.github.io/scribbles/codingtrain_live005_randombubbles)
 
 ## November 2018
 
@@ -92,7 +92,7 @@ https://youtu.be/8v_D33uGUrU
 Details:
 https://youtu.be/6G02PLQ8L7k
 
-* [Beispiel für das Setzen einer Bedingung nach dem Event 'mousepressed'](https://github.com/dirent/scribbles/tree/master/codingtrain/live/003/mousepressed)
+* [Beispiel für das Setzen einer Bedingung nach dem Event 'mousepressed'](https://dirent.github.io/scribbles/codingtrain/live/003/mousepressed)
 
 ## Oktober 2018
 
@@ -100,19 +100,19 @@ https://youtu.be/6G02PLQ8L7k
 Details:
 https://youtu.be/gGEwvCLjf8w
 
-* [Lösung](https://github.com/dirent/scribbles/tree/master/weitz_knobelaufgabe_mcnugget-zahlen)
+* [Lösung](https://dirent.github.io/scribbles/weitz_knobelaufgabe_mcnugget-zahlen)
 
 ### Skripte zum Live Stream #1 des "Coding Train"
 Details:
 https://youtu.be/TdUC3JgwUJY
 
-* [Beispiel für die map-Funktion von p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain/live/001/map)
-* [Beispiel für die random-Funktion von p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain/live/001/random)
+* [Beispiel für die map-Funktion von p5.js](https://dirent.github.io/scribbles/codingtrain/live/001/map)
+* [Beispiel für die random-Funktion von p5.js](https://dirent.github.io/scribbles/codingtrain/live/001/random)
 
 ### Skripte zum Live Stream #2 des "Coding Train"
 Details:
 https://youtu.be/uEVJRE_6v0A
 
-* [Beispiel für ein einfaches If mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain/live/002/basicif)
-* [Beispiel für einen wandernden Ball mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain/live/002/bouncingball)
-* [Beispiel für einen Mouse-Over-Effekt mit p5.js](https://github.com/dirent/scribbles/tree/master/codingtrain/live/002/mouseoverrect)
+* [Beispiel für ein einfaches If mit p5.js](https://dirent.github.io/scribbles/codingtrain/live/002/basicif)
+* [Beispiel für einen wandernden Ball mit p5.js](https://dirent.github.io/scribbles/codingtrain/live/002/bouncingball)
+* [Beispiel für einen Mouse-Over-Effekt mit p5.js](https://dirent.github.io/scribbles/codingtrain/live/002/mouseoverrect)
