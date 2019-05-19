@@ -13,23 +13,23 @@ Eine Sammlung diverser Code-Schnipsel
 Details:
 https://youtu.be/rEC9U9dgxkA
 
-* [Beispiel für die Ausgabe der Position des Mauszeigers](https://github.com/dirent/scribbles/codingtrain/live/007/mouseposition)
+* [Beispiel für die Ausgabe der Position des Mauszeigers](https://dirent.github.io/scribbles/codingtrain/live/007/mouseposition/)
 
 ### Skripte zum Processing Tutorial des "Coding Train"
 Details:
 https://youtu.be/esKLU3dJo70
 
-* [Gitternetz mit zufälliger Gitterbreite](https://github.com/dirent/scribbles/tree/master/codingtrain/processing/loop/while_grid)
+* [Gitternetz mit zufälliger Gitterbreite](https://dirent.github.io/scribbles/codingtrain/processing/loop/while_grid)
 
 Details:
 https://youtu.be/Z8s-7beNP1c
 
-* [Variable Anzahl vertikaler Linien](https://github.com/dirent/scribbles/tree/master/codingtrain/processing/loop/loop_inside_draw)
+* [Variable Anzahl vertikaler Linien](https://dirent.github.io/scribbles/codingtrain/processing/loop/loop_inside_draw)
 
 Details:
 https://youtu.be/H7frvcAHXps
 
-* [Gitter aus Rechtecken](https://github.com/dirent/scribbles/tree/master/codingtrain/processing/loop/nested_loops)
+* [Gitter aus Rechtecken](https://dirent.github.io/scribbles/codingtrain/processing/loop/nested_loops)
 
 ## April 2019
 
