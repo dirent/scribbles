@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <script src="domready-min.js"></script>
+    <script src="underscore-min.js"></script>
+    <script src="script.js"></script>
+    <h1>Tests mit debounce und throttle</h1>
+    <p>Klicke die Buttons oft und schnell!</p>
+    <p>Ausgabe erfolgt in die Javascript-Konsole.</p>
+    <button id="normalbutton">Ohne Debounce</button>
+    <button id="debounced1000tbutton">Debounce 1000 (immediate=true)</button>
+    <button id="debounced1000fbutton">Debounce 1000 (immediate=false)</button>
+    <button id="throttledbothbutton">Throttle 1000 (leading and tailing)</button>
+    <button id="throttledleadingbutton">Throttle 1000 (leading)</button>
+    <button id="throttledtrailingbutton">Throttle 1000 (trailing)</button>
+</body>
+
+</html>

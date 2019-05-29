@@ -9,6 +9,10 @@ Eine Sammlung diverser Code-Schnipsel
 
 ## Mai 2019
 
+### Fingerübung: debounce und throttle mit [Underscore.js](https://underscorejs.org/)
+
+* [Test mit debounce und throttle](https://dirent.github.io/scribbles/underscore/debounce/)
+
 ### Skripte zum Live Stream #7 des "Coding Train"
 Details:
 https://youtu.be/rEC9U9dgxkA
