@@ -79,16 +79,16 @@ https://youtu.be/PgGFv44bz9E
 Details:
 https://youtu.be/xyclhIu2WDY
 
-* [Beispiel für das Rendern von Kreisen in horizontaler Reihe](https://dirent.github.io/scribbles/codingtrain_live004_horizontalcircles)
-* [Beispiel für das Rendern von Kreisen auf einem zweidimensionalen Gitter](https://dirent.github.io/scribbles/codingtrain_live004_gridcircles)
+* [Beispiel für das Rendern von Kreisen in horizontaler Reihe](https://dirent.github.io/scribbles/codingtrain/live/004/horizontalcircles)
+* [Beispiel für das Rendern von Kreisen auf einem zweidimensionalen Gitter](https://dirent.github.io/scribbles/codingtrain/live/004/gridcircles)
 
 ### Skripte zum Live Stream #5 des "Coding Train"
 Details:
 https://youtu.be/8v_D33uGUrU
 
-* [Beispiel für eine klickbare Liste von Wörtern](https://dirent.github.io/scribbles/codingtrain_live005_wordlist)
-* [Beispiel für den Zugriff auf ein Array innerhalb einer for-Schleife](https://dirent.github.io/scribbles/codingtrain_live005_arraywithforloop)
-* [Beispiel für ein Array mit Objekten](https://dirent.github.io/scribbles/codingtrain_live005_randombubbles)
+* [Beispiel für eine klickbare Liste von Wörtern](https://dirent.github.io/scribbles/codingtrain/live/005/wordlist)
+* [Beispiel für den Zugriff auf ein Array innerhalb einer for-Schleife](https://dirent.github.io/scribbles/codingtrain/live/005/arraywithforloop)
+* [Beispiel für ein Array mit Objekten](https://dirent.github.io/scribbles/codingtrain/live/005/randombubbles)
 
 ## November 2018
 
