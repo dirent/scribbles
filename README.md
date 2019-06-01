@@ -7,6 +7,14 @@ Eine Sammlung diverser Code-Schnipsel
 
 * [Lösung](https://github.com/dirent/scribbles/tree/master/games/p5_snake)
 
+## Juni 2019
+
+### Skripte zum Live Stream #7 des "Coding Train"
+Details:
+https://youtu.be/rEC9U9dgxkA
+
+* [Beispiel für Buttons mit einem Eventhandler](https://dirent.github.io/scribbles/codingtrain/live/007/events_button/)
+
 ## Mai 2019
 
 ### Fingerübung: debounce und throttle mit [Underscore.js](https://underscorejs.org/)
