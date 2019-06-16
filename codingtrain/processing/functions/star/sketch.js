@@ -2,17 +2,41 @@
 // Coding Train "7.4: Reusability with Functions - Processing Tutorial"
 // https://youtu.be/b9AYvekwKIg
 
-let x,y;
+let stars = [],
+    clearStars = false;
 
 function setup() {
+    let b;
     createCanvas(600, 480);
-    x = random(width);
-    y = random(height);
+    addStar(random(width), random(height));
+    b = createButton("Clear stars");
+    b.mousePressed(function () {
+        clearStars = true;
+    });
 }
 
 function draw() {
+    let i;
     background(0);
-    star(x, y);
+    if (clearStars) {
+        stars = [];
+        clearStars = false;
+    } else {
+        for (i = 0; i < stars.length; i++) {
+            star(stars[i].x, stars[i].y);
+        }
+    }
+}
+
+function mousePressed() {
+    addStar(mouseX, mouseY);
+}
+
+function addStar(x, y) {
+    stars.push({
+        x: x,
+        y: y
+    });
 }
 
 function star(x, y) {
