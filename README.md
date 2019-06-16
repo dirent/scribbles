@@ -9,6 +9,12 @@ Eine Sammlung diverser Code-Schnipsel
 
 ## Juni 2019
 
+### Skripte zum Processing Tutorial des "Coding Train"
+Details:
+https://youtu.be/b9AYvekwKIg
+
+* [Beispiel eines eigenen Shapes](https://dirent.github.io/scribbles/codingtrain/processing/functions/star)
+
 ### Skripte zum Live Stream #7 des "Coding Train"
 Details:
 https://youtu.be/rEC9U9dgxkA
