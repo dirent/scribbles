@@ -13,7 +13,7 @@ Eine Sammlung diverser Code-Schnipsel
 Details:
 https://youtu.be/b9AYvekwKIg
 
-* [Beispiel eines eigenen Shapes](https://dirent.github.io/scribbles/codingtrain/processing/functions/star)
+* [Beispiel eines eigenen Shapes](https://dirent.github.io/scribbles/codingtrain/processing/functions/star/)
 
 ### Skripte zum Live Stream #7 des "Coding Train"
 Details:
