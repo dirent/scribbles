@@ -11,6 +11,12 @@ Eine Sammlung diverser Code-Schnipsel
 
 ### Skripte zum Processing Tutorial des "Coding Train"
 Details:
+https://youtu.be/XwfOVFelLoo
+
+* [Beispiel einer aufsteigenden Blase](https://dirent.github.io/scribbles/codingtrain/processing/objects/ascending_bubble/)
+
+### Skripte zum Processing Tutorial des "Coding Train"
+Details:
 https://youtu.be/b9AYvekwKIg
 
 * [Beispiel eines eigenen Shapes](https://dirent.github.io/scribbles/codingtrain/processing/functions/star/)
