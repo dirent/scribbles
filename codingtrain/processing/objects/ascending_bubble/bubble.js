@@ -9,8 +9,9 @@ function Bubble() {
         ellipse(this.x, this.y, 36, 36);
     }
 
-    this.ascend = function() {
+    this.ascend = function () {
         this.y--;
-        this.y = max(18,this.y);
+        this.y = max(18, this.y);
+        this.x += random(-2, 2);
     }
 }
