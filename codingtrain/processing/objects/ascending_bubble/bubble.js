@@ -11,5 +11,6 @@ function Bubble() {
 
     this.ascend = function() {
         this.y--;
+        this.y = max(18,this.y);
     }
 }
