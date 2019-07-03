@@ -7,6 +7,14 @@ Eine Sammlung diverser Code-Schnipsel
 
 * [Lösung](https://github.com/dirent/scribbles/tree/master/games/p5_snake)
 
+## Juli 2019
+
+### Skripte zum Processing Tutorial des "Coding Train"
+Details:
+https://youtu.be/V7k5bFQbhG0
+
+* [Beispiel mit mehreren  aufsteigenden Blasen](https://dirent.github.io/scribbles/codingtrain/processing/objects/ascending_bubble/)
+
 ## Juni 2019
 
 ### Skripte zum Processing Tutorial des "Coding Train"
