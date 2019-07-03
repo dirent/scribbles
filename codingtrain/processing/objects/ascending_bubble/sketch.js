@@ -8,13 +8,22 @@
 // Coding Train "8.5: More on Objects - Processing Tutorial"
 // https://youtu.be/V7k5bFQbhG0
 
-var b1, b2, b3;
-
-function setup() {
-    createCanvas(600, 400);
+let b1, b2, b3;
+function init() {
     b1 = new Bubble();
     b2 = new Bubble();
     b3 = new Bubble();
+}
+
+function setup() {
+    let button;
+    createCanvas(600, 400);
+    init();
+    button = createButton("Restart");
+    button.mousePressed(function () {
+        init();
+    });
+
 }
 
 function draw() {
