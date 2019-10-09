@@ -2,7 +2,7 @@ function Bubble() {
 
     this.x = random(width);
     this.y = height;
-    this.r = random(100, 200);
+    this.r = random(20, 150);
     this.col = color(0);
 
     this.draw = function () {
@@ -13,8 +13,10 @@ function Bubble() {
     }
 
     this.ascend = function () {
-        this.y--;
-        this.y = max(this.r / 2, this.y);
+        this.y -= 3.5 - this.r/50;
+        if( this.y < -(this.r / 2) ) {
+            this.y = height + (this.r/2);
+        }
         this.x += random(-2, 2);
     }
 
