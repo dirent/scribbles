@@ -2,7 +2,7 @@
 // Coding Train "9: Arrays - Processing Tutorial"
 // https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bO9RKxHObluh-aPgrrvb4a
 
-const SIZE = 6;
+const SIZE = 120;
 let bubbles;
 
 function init() {
