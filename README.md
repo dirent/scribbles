@@ -7,13 +7,21 @@ Eine Sammlung diverser Code-Schnipsel
 
 * [Lösung](https://github.com/dirent/scribbles/tree/master/games/p5_snake)
 
+## Oktober 2019
+
+### Skripte zum Processing Tutorial des "Coding Train" - Arrays
+Details:
+https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bO9RKxHObluh-aPgrrvb4a
+
+* [Umsetzung der aufsteigenden Blasen als Array](https://dirent.github.io/scribbles/codingtrain/processing/arrays/ascending_bubble_array/)
+
 ## Juli 2019
 
 ### Skripte zum Processing Tutorial des "Coding Train"
 Details:
 https://youtu.be/V7k5bFQbhG0
 
-* [Beispiel mit mehreren  aufsteigenden Blasen](https://dirent.github.io/scribbles/codingtrain/processing/objects/ascending_bubble/)
+* [Beispiel mit mehreren aufsteigenden Blasen](https://dirent.github.io/scribbles/codingtrain/processing/objects/ascending_bubble/)
 
 ## Juni 2019
 
