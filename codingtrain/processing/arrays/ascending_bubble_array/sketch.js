@@ -3,10 +3,11 @@
 // https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bO9RKxHObluh-aPgrrvb4a
 
 const SIZE = 120;
-let bubbles;
+let total, bubbles;
 
 function init() {
     let i;
+    total = random(0.25 * SIZE, 0.75 * SIZE);
     bubbles = new Array();
     for (i = 0; i < SIZE; i++) {
         bubbles.push(new Bubble());
@@ -39,10 +40,14 @@ function setup() {
 }
 
 function draw() {
+    let index = 0;
     resetColors();
     background(0);
     bubbles.forEach(function (bubble) {
-        bubble.draw();
-        bubble.ascend();
+        if (index < total) {
+            bubble.draw();
+            bubble.ascend();
+        }
+        index++;
     });
 }
