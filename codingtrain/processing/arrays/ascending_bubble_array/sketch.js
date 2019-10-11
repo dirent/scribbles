@@ -39,6 +39,14 @@ function setup() {
     });
 }
 
+function mousePressed() {
+    total = Math.min(bubbles.length, total + 1);
+}
+
+function keyPressed() {
+    total = Math.max(total - 1, 0);
+}
+
 function draw() {
     let index = 0;
     resetColors();
