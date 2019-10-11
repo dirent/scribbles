@@ -2,12 +2,12 @@
 // Coding Train "9: Arrays - Processing Tutorial"
 // https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bO9RKxHObluh-aPgrrvb4a
 
-const SIZE = 120;
+const SIZE = 150;
 let total, bubbles;
 
 function init() {
     let i;
-    total = random(0.25 * SIZE, 0.75 * SIZE);
+    total = parseInt(SIZE / 2);
     bubbles = new Array();
     for (i = 0; i < SIZE; i++) {
         bubbles.push(new Bubble());
@@ -39,12 +39,13 @@ function setup() {
     });
 }
 
-function mousePressed() {
-    total = Math.min(bubbles.length, total + 1);
-}
-
 function keyPressed() {
-    total = Math.max(total - 1, 0);
+    if (keyCode == DOWN_ARROW) {
+        total = Math.max(total - 1, 0);
+    }
+    if (keyCode == UP_ARROW) {
+        total = Math.min(bubbles.length, total + 1);
+    }
 }
 
 function draw() {
@@ -58,4 +59,6 @@ function draw() {
         }
         index++;
     });
+    fill(255);
+    text("# of bubbles: " + total, 500, 25);
 }
