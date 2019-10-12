@@ -1,3 +1,6 @@
+let n = 2;
+let d = 29;
+
 function setup() {
     createCanvas(600, 600);
     angleMode(DEGREES);
@@ -14,9 +17,10 @@ function draw() {
     noFill();
     beginShape();
     for (let a = 0; a < 360; a++) {
-        let r = 1;
-        let x = r * cos(a);
-        let y = r * sin(a);
+        let k = a * d;
+        let r = sin(n * k);
+        let x = r * sin(k);
+        let y = r * cos(k);
         vertex(x, y);
     }
     endShape(CLOSE);
