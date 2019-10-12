@@ -9,6 +9,12 @@ Eine Sammlung diverser Code-Schnipsel
 
 ## Oktober 2019
 
+### Skripte zum Coding in the Cabana des "Coding Train" - Maurer Roses
+Details:
+https://youtu.be/4uU9lZ-HSqA
+
+* [Umsetzung einer 'Maurer-Rosette' mit p5.js](https://dirent.github.io/scribbles/codingtrain/cabana/maurer/)
+
 ### Skripte zum Processing Tutorial des "Coding Train" - Arrays
 Details:
 https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bO9RKxHObluh-aPgrrvb4a
