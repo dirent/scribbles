@@ -48,9 +48,4 @@ function draw() {
         vertex(x, y);
     }
     endShape(CLOSE);
-
-    stroke(255);
-    fill(255);
-    textSize(16 / scaleFactor);
-    text("zyx", 1, 1);
 }
