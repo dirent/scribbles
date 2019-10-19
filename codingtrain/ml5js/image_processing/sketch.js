@@ -3,6 +3,22 @@ let puffin;
 
 function modelReady() {
     console.log("Model is ready.");
+    mobilenet.predict(puffin, gotResults);
+}
+
+function gotResults(error, results) {
+    if (error) {
+        console.error(error);
+    } else {
+        console.log(results);
+        let label = results[0].label;
+        fill(0);
+        textSize(24);
+        text(label, 10, 30);
+        let confidence = results[0].confidence;
+        createP(label);
+        createP(confidence);
+    }
 }
 
 function imageReady() {
