@@ -9,6 +9,12 @@ Eine Sammlung diverser Code-Schnipsel
 
 ## Oktober 2019
 
+### Skripte zum ml5.js Tutorial des "Coding Train" - Image Classification
+Details:
+https://youtu.be/yNkAuWz5lnY
+
+* [Bilderkennung mit MobileNets](https://dirent.github.io/scribbles/codingtrain/ml5js/image_processing)
+
 ### Skripte zum Coding in the Cabana des "Coding Train" - Maurer Roses
 Details:
 https://youtu.be/4uU9lZ-HSqA
