@@ -13,7 +13,7 @@ Eine Sammlung diverser Code-Schnipsel
 Details:
 https://youtu.be/yNkAuWz5lnY
 
-* [Bilderkennung mit MobileNets](https://dirent.github.io/scribbles/codingtrain/ml5js/image_processing)
+* [Bilderkennung mit MobileNets](https://dirent.github.io/scribbles/codingtrain/ml5js/image_classification)
 
 ### Skripte zum Coding in the Cabana des "Coding Train" - Maurer Roses
 Details:
