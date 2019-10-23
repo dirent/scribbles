@@ -18,8 +18,7 @@ function gotResults(error, results) {
 }
 
 function setup() {
-    createCanvas(640, 480);
-    background(0);
+    createCanvas(640, 550);
     video = createCapture(VIDEO);
     video.hide();
     console.log("ml5js version: " + ml5.version);
@@ -27,9 +26,10 @@ function setup() {
 }
 
 function draw() {
+    background(0);
     image(video, 0, 0);
     // display current classification
-    fill(0);
+    fill(255);
     textSize(24);
-    text(label, 10, 30);
+    text(label, 10, height-30);
 }
