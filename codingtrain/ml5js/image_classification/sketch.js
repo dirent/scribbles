@@ -1,9 +1,9 @@
 let mobilenet;
-let puffin;
+let bird;
 
 function modelReady() {
     console.log("Model is ready.");
-    mobilenet.predict(puffin, gotResults);
+    mobilenet.predict(bird, gotResults);
 }
 
 function gotResults(error, results) {
@@ -22,14 +22,19 @@ function gotResults(error, results) {
 }
 
 function imageReady() {
-    image(puffin, 0, 0, width, height);
+    image(bird, 0, 0, width, height);
 }
 
 function setup() {
     createCanvas(640, 480);
     background(0);
-    puffin = createImg("images/puffin.jpg", imageReady);
-    puffin.hide();
+    let choice = random(2);
+    if (choice < 1) {
+        bird = createImg("images/puffin.jpg", imageReady);
+    } else {
+        bird = createImg("images/seagull.jpg", imageReady);
+    }
+    bird.hide();
     console.log("ml5js version: " + ml5.version);
     mobilenet = ml5.imageClassifier("MobileNet", modelReady);
 }
