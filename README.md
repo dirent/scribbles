@@ -15,6 +15,11 @@ https://youtu.be/yNkAuWz5lnY
 
 * [Bilderkennung mit MobileNets](https://dirent.github.io/scribbles/codingtrain/ml5js/image_classification)
 
+Details:
+https://youtu.be/D9BoBSkLvFo
+
+* [Erkennung einer Webcam-Aufnahme](https://dirent.github.io/scribbles/codingtrain/ml5js/webcam_image_classification)
+
 ### Skripte zum Coding in the Cabana des "Coding Train" - Maurer Roses
 Details:
 https://youtu.be/4uU9lZ-HSqA
