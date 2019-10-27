@@ -8,9 +8,8 @@ function setup() {
 
 function draw() {
     background(0);
-
-    snake.display();
     snake.move();
+    snake.display();
 }
 
 function keyPressed() {

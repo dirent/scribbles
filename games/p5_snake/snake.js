@@ -13,24 +13,6 @@ function Snake() {
     this.blocks = [];
     this.blocks[0] = [(width - this.blockWidth) / 2, (height - this.blockWidth) / 2];
 
-    /**
-     * Extends the snake by one to the current direction
-     */
-    this.eat = function () {
-        let headX = this.blocks[0][0],
-            headY = this.blocks[0][1]
-        dirX = this.direction[0],
-            dirY = this.direction[1];
-
-        this.blocks.push([headX + this.blockWidth * dirX, headY + this.blockWidth * dirY]);
-    }
-
-    // let the snake grow initially
-    this.eat();
-    this.eat();
-    this.eat();
-    this.eat();
-
     this.display = function () {
         rectMode(CENTER);
         stroke(255);
@@ -56,6 +38,25 @@ function Snake() {
             this.blocks[0] = [headX, headY];
         }
     };
+
+    /**
+     * Extends the snake by one to the current direction
+     */
+    this.eat = function () {
+
+        let tail = this.blocks.length,
+            tailX = this.blocks[tail-1][0],
+            tailY = this.blocks[tail-1][1];
+        this.move();
+        // extend the snake
+        this.blocks.push( [tailX, tailY] );
+    }
+
+    // let the snake grow initially
+    this.eat();
+    this.eat();
+    this.eat();
+    this.eat();
 
     this.keyPressed = function () {
         if (keyCode === UP_ARROW && this.direction != DOWN) {
