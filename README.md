@@ -108,7 +108,7 @@ https://youtu.be/PgGFv44bz9E
 Details:
 https://youtu.be/vhSomr3lD5A
 
-* [Lösung](https://dirent.github.io/scribbles/weitz_d3_map-reduce)
+* [Lösung](https://dirent.github.io/scribbles/weitz/d3/map-reduce)
 
 ## Februar 2019
 
@@ -116,7 +116,7 @@ https://youtu.be/vhSomr3lD5A
 Details:
 https://youtu.be/rX4wAfiKOms
 
-* [Lösung](https://dirent.github.io/scribbles/weitz_knobelaufgabe_unfaires-muenzspiel)
+* [Lösung](https://dirent.github.io/scribbles/weitz/knobelaufgaben/unfaires_muenzspiel)
 
 ## Januar 2019
 
@@ -157,7 +157,7 @@ https://youtu.be/6G02PLQ8L7k
 Details:
 https://youtu.be/gGEwvCLjf8w
 
-* [Lösung](https://dirent.github.io/scribbles/weitz_knobelaufgabe_mcnugget-zahlen)
+* [Lösung](https://dirent.github.io/scribbles/weitz/knobelaufgaben/mcnugget_zahlen)
 
 ### Skripte zum Live Stream #1 des "Coding Train"
 Details:
