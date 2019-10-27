@@ -5,13 +5,15 @@ const LEFT = [-1, 0];
 const UP = [0, -1];
 const DOWN = [0, 1];
 
+const INITIAL_LENGTH = 3;
+
 function Snake() {
 
     // the radius of a single block within the snake
     this.blockWidth = 20;
     this.direction = RIGHT;
     this.blocks = [];
-    this.blocks[0] = [(width - this.blockWidth) / 2, (height - this.blockWidth) / 2];
+    this.blocks[0] = [(width - INITIAL_LENGTH * this.blockWidth) / 2, (height - this.blockWidth) / 2];
 
     this.display = function () {
         rectMode(CENTER);
@@ -43,20 +45,20 @@ function Snake() {
      * Extends the snake by one to the current direction
      */
     this.eat = function () {
-
+        // remember the tail
         let tail = this.blocks.length,
-            tailX = this.blocks[tail-1][0],
-            tailY = this.blocks[tail-1][1];
+            tailX = this.blocks[tail - 1][0],
+            tailY = this.blocks[tail - 1][1];
+        // move the snake
         this.move();
         // extend the snake
-        this.blocks.push( [tailX, tailY] );
+        this.blocks.push([tailX, tailY]);
     }
 
     // let the snake grow initially
-    this.eat();
-    this.eat();
-    this.eat();
-    this.eat();
+    for (let i = 0; i < INITIAL_LENGTH-1; i++) {
+        this.eat();
+    }
 
     this.keyPressed = function () {
         if (keyCode === UP_ARROW && this.direction != DOWN) {
