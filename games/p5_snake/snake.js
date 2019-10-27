@@ -13,14 +13,16 @@ function Snake() {
     this.blocks = [];
     this.blocks[0] = [width / 2, height / 2];
 
+    /**
+     * Extends the snake by one to the current direction
+     */
     this.eat = function () {
-        let headPos = this.blocks.length - 1,
-            headX = this.blocks[headPos][0],
-            headY = this.blocks[headPos][1],
-            dirX = this.direction[0],
+        let headX = this.blocks[0][0],
+            headY = this.blocks[0][1]
+        dirX = this.direction[0],
             dirY = this.direction[1];
 
-        this.blocks.push( [headX + this.blockWidth*dirX, headY + this.blockWidth*dirY] );
+        this.blocks.push([headX + this.blockWidth * dirX, headY + this.blockWidth * dirY]);
     }
 
     // let the snake grow initially
@@ -39,7 +41,20 @@ function Snake() {
     };
 
     this.move = function () {
+        // calculate the new head location
+        let dirX = this.direction[0],
+            dirY = this.direction[1],
+            headX = constrain(this.blocks[0][0] + this.blockWidth * dirX, 0, width - this.blockWidth),
+            headY = constrain(this.blocks[0][1] + this.blockWidth * dirY, 0, height - this.blockWidth);
 
+        if (headX != this.blocks[0][0] || headY != this.blocks[0][1]) {
+            // move body of the snake
+            for (let i = this.blocks.length - 1; i > 0; i--) {
+                this.blocks[i] = this.blocks[i - 1];
+            }
+            // move the head of the snake
+            this.blocks[0] = [headX, headY];
+        }
     };
 
 }

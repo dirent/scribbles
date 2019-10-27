@@ -2,7 +2,7 @@ let snake;
 
 function setup() {
     createCanvas( 600, 400 );
-    
+    frameRate(5);
     snake = new Snake();
 }
 
