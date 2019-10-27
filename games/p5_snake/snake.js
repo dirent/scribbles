@@ -11,7 +11,7 @@ function Snake() {
     this.blockWidth = 20;
     this.direction = RIGHT;
     this.blocks = [];
-    this.blocks[0] = [(width-this.blockWidth) / 2, (height-this.blockWidth) / 2];
+    this.blocks[0] = [(width - this.blockWidth) / 2, (height - this.blockWidth) / 2];
 
     /**
      * Extends the snake by one to the current direction
@@ -44,8 +44,8 @@ function Snake() {
         // calculate the new head location
         let dirX = this.direction[0],
             dirY = this.direction[1],
-            headX = constrain(this.blocks[0][0] + this.blockWidth * dirX, this.blockWidth/2, width - this.blockWidth/2),
-            headY = constrain(this.blocks[0][1] + this.blockWidth * dirY, this.blockWidth/2, height - this.blockWidth/2);
+            headX = constrain(this.blocks[0][0] + this.blockWidth * dirX, this.blockWidth / 2, width - this.blockWidth / 2),
+            headY = constrain(this.blocks[0][1] + this.blockWidth * dirY, this.blockWidth / 2, height - this.blockWidth / 2);
 
         if (headX != this.blocks[0][0] || headY != this.blocks[0][1]) {
             // move body of the snake
@@ -58,16 +58,16 @@ function Snake() {
     };
 
     this.keyPressed = function () {
-        if (keyCode === UP_ARROW) {
+        if (keyCode === UP_ARROW && this.direction != DOWN) {
             this.direction = UP;
         }
-        if (keyCode === DOWN_ARROW) {
+        if (keyCode === DOWN_ARROW && this.direction != UP) {
             this.direction = DOWN;
         }
-        if (keyCode === LEFT_ARROW) {
+        if (keyCode === LEFT_ARROW && this.direction != RIGHT) {
             this.direction = LEFT;
         }
-        if (keyCode === RIGHT_ARROW) {
+        if (keyCode === RIGHT_ARROW && this.direction != LEFT) {
             this.direction = RIGHT;
         }
     }
