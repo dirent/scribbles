@@ -7,10 +7,10 @@ const DOWN = [0, 1];
 
 const INITIAL_LENGTH = 3;
 
-function Snake() {
+function Snake(blockWidth) {
 
     // the radius of a single block within the snake
-    this.blockWidth = 20;
+    this.blockWidth = blockWidth;
     this.direction = RIGHT;
     this.blocks = [];
     this.blocks[0] = [(width - INITIAL_LENGTH * this.blockWidth) / 2, (height - this.blockWidth) / 2];
